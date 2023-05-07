@@ -60,18 +60,20 @@
     <Compile Include="Assets\Script\BaseClasses\Input\InputListener.cs" />
     <Compile Include="Assets\Script\BaseClasses\Input\InputActor.cs" />
     <Compile Include="Assets\Script\Deleted\Player\GroundChecker.cs" />
-    <Compile Include="Assets\Script\Deleted\Manager\Managers.cs" />
+    <Compile Include="Assets\Script\Manager\Managers.cs" />
     <Compile Include="Assets\Script\Deleted\Player\PlayerLocomotion.cs" />
     <Compile Include="Assets\Script\Deleted\Interaction\Derived\Interactable\InteractableNPC.cs" />
     <Compile Include="Assets\Art\UIs\PiUi\TestScene\Test.cs" />
-    <Compile Include="Assets\Script\PlayerInput\KeyboardInput.cs" />
+    <Compile Include="Assets\Script\Action\MouseAction.cs" />
+    <Compile Include="Assets\Script\Manager\InGame\Commander.cs" />
+    <Compile Include="Assets\Script\Manager\InGame\GameSeqManager.cs" />
+    <Compile Include="Assets\Script\PlayerInput\Keyboard\KeyboardButtonActor.cs" />
     <Compile Include="Assets\Script\Deleted\Interaction\Derived\Interactable\InteractableObject.cs" />
-    <Compile Include="Assets\Script\Deleted\Manager\GameManager.cs" />
     <Compile Include="Assets\Art\UIs\PiUi\TestScene\TestWorld.cs" />
     <Compile Include="Assets\Script\Deleted\Interaction\Base\InteractReactor.cs" />
     <Compile Include="Assets\Script\Map\MapGenerator.cs" />
     <Compile Include="Assets\Script\Utils\Define.cs" />
-    <Compile Include="Assets\Script\Deleted\Manager\GridManager.cs" />
+    <Compile Include="Assets\Script\Manager\GridManager.cs" />
     <Compile Include="Assets\Art\UIs\PiUi\Scripts\PiUIManager.cs" />
     <Compile Include="Assets\Art\UIs\PiUi\Scripts\PiUI.cs" />
     <Compile Include="Assets\Script\BaseClasses\Singleton.cs" />
@@ -81,13 +83,14 @@
     <Compile Include="Assets\Script\BaseClasses\Input\AnalogInputActor.cs" />
     <Compile Include="Assets\Script\Deleted\Interaction\Derived\InteractReactor\ReactWithAction.cs" />
     <Compile Include="Assets\Art\UIs\PiUi\Scripts\PiPiece.cs" />
-    <Compile Include="Assets\Script\Deleted\Manager\InputManager.cs" />
-    <Compile Include="Assets\Script\PlayerInput\MouseButtonInput.cs" />
-    <Compile Include="Assets\Script\Deleted\Interaction\Interactor.cs" />
+    <Compile Include="Assets\Script\Manager\InputManager.cs" />
+    <Compile Include="Assets\Script\PlayerInput\Mouse\MouseButtonActor.cs" />
+    <Compile Include="Assets\Script\Deleted\Interaction\Base\Interactor.cs" />
+    <Compile Include="Assets\Script\Manager\NetworkManager.cs" />
     <Compile Include="Assets\Script\Deleted\Interaction\Derived\InteractReactor\ReactWithDialog.cs" />
-    <Compile Include="Assets\Script\Deleted\Manager\DialogManager.cs" />
+    <Compile Include="Assets\Script\Manager\DialogManager.cs" />
     <Compile Include="Assets\Script\Utils\Interfaces.cs" />
-    <Compile Include="Assets\Script\PlayerInput\MouseAxisInput.cs" />
+    <Compile Include="Assets\Script\PlayerInput\Mouse\MouseAxisActor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

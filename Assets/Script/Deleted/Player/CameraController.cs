@@ -1,9 +1,10 @@
+using Insomnia;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-namespace Insomnia {
+namespace Deleted {
     public class CameraController : InputActor {
         [SerializeField] private Transform _rotationPivot = null;
         [SerializeField] private Transform _lookAt = null;

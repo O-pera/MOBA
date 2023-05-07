@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace Insomnia {
-    public class MouseButtonInput : TriggerInputActor {
+    public class MouseButtonActor : TriggerInputActor {
 
         public void OnClick_SelectTile() {
 

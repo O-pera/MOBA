@@ -3,6 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KeyboardInput : TriggerInputActor {
+public class KeyboardButtonActor : TriggerInputActor {
 
 }

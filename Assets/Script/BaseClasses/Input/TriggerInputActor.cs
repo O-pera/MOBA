@@ -12,7 +12,7 @@ public class TriggerInputActor : InputActor{
     [SerializeField] private KeyCodeActionDictionary _keyCodes = new KeyCodeActionDictionary();
     private KeyCodeActionDictionary KeyCodes { get => _keyCodes; }
 
-    public override void KeyCheck() {
+    public override sealed void KeyCheck() {
         foreach(KeyCode key in _keyCodes.Keys) {
             if(Input.GetKeyDown(key))
                 _keyCodes[key].Invoke();

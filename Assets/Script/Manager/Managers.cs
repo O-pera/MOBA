@@ -12,6 +12,9 @@ namespace Insomnia {
         private static DialogManager _dialog;
         public static DialogManager Dialog { get => _dialog; }
 
+        private static NetworkManager _network;
+        public static NetworkManager Network { get => _network; }
+
         protected override void Awake() {
             base.Awake();
             RegisterManager();
@@ -19,6 +22,7 @@ namespace Insomnia {
 
         private void RegisterManager() {
             _input = GetComponentInChildren<InputManager>();
+            _network = GetComponentInChildren<NetworkManager>();
         }
     }
 }
